@@ -6,8 +6,22 @@ exports[`plugin test suits should complete standard workflow 1`] = `
 <head>
   <meta charset=\\"UTF-8\\">
   <title>Webpack Plugin</title>
-</head>
+<script>if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      navigator.serviceWorker.register('sw.js', { scope: '/' }).then(function (registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }).catch(function (err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    }, 200);
+  });
+}
+</script></head>
 <body>
 <script type=\\"text/javascript\\" src=\\"/main.js\\"></script></body>
-</html>"
+</html>
+"
 `;

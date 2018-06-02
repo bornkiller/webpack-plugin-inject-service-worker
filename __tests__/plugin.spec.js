@@ -34,11 +34,7 @@ const configuration = {
         inject: 'body',
       },
     ]),
-    Reflect.construct(Plugin, [
-      {
-        verbose: true,
-      },
-    ]),
+    Reflect.construct(Plugin, [{ swDelay: 200 }]),
   ],
 };
 
