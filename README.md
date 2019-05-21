@@ -1,7 +1,7 @@
 # @coco-platform/webpack-plugin-inject-service-worker
 
 ![Build Status](https://img.shields.io/travis/coco-platform/webpack-plugin-inject-service-worker/master.svg?style=flat)
-[![Coverage Status](https://coveralls.io/repos/github/coco-platform/webpack-plugin-inject-service-worker/badge.svg?branch=master)](https://coveralls.io/github/coco-platform/webpack-plugin-inject-service-worker?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/coco-platform/webpack-plugin-inject-service-worker/badge.svg?branch=master)](https://coveralls.io/github/coco-platform/webpack-plugin-inject-service-worker?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/coco-platform/webpack-plugin-inject-service-worker.svg)](https://greenkeeper.io/)
 ![Package Dependency](https://david-dm.org/coco-platform/webpack-plugin-inject-service-worker.svg?style=flat)
 ![Package DevDependency](https://david-dm.org/coco-platform/webpack-plugin-inject-service-worker/dev-status.svg?style=flat)
 
